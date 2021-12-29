@@ -1,6 +1,12 @@
 # shell-cheat-sheet
 Various random Linux shell/bash commands
 
+## Install nginx on Debian
+```
+sudo apt update;
+sudo apt install nginx -y
+```
+
 ## Generate random password
 ```
 pwgen -c -Bs 48 1
